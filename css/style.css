@@ -853,6 +853,7 @@ CONTACT CSS START
 .single_input input {
     background: transparent;
     border: 0;
+    outline: 0;
     border-bottom: 1px solid #fff;
     color: #fff;
     margin-top: 45px;
