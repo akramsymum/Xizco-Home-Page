@@ -93,17 +93,16 @@ HEADER CSS START
 
 .main_menu {
     background-color: var(--themeColor);
+    overflow: hidden;
 }
 
 .menubar {
     transform: translateY(100%);
-    visibility: hidden;
     transition: all .3s linear;
 }
 
 .menubar.active {
     transform: translateY(0%);
-    visibility: visible;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {

@@ -21,6 +21,10 @@ $('document').ready(function () {
         $('.menubar').toggleClass('active');
     });
 
+    $('.nav_search a').on('click', function (ak) {
+        ak.preventDefault();
+    });
+
 
     //==== SLIDER JS =====
     $('.slider_active').slick({
@@ -63,7 +67,7 @@ $('document').ready(function () {
             filter: filterValue
         });
     });
-    
+
     //==== ISOTOP BUTTON JS =====
     $('.work_button').on('click', function () {
         $('.work_button').removeClass('active');
@@ -84,7 +88,7 @@ $('document').ready(function () {
     $('#digital').on('click', function () {
         $('.digital').attr('data-gall', 'gallery05');
     });
-    
+
 
     //==== VENOBOX JS  =====
     $('.venobox').venobox({

@@ -101,6 +101,9 @@
         margin-top: 2.75rem !important;
     }
 
+    .copyright_right ul li:nth-child(1) a {
+        margin-left: 0;
+    }
 }
 
 
@@ -288,6 +291,10 @@
 
     .copyright {
         padding: 30px 0;
+    }
+
+    .copyright_right ul li:nth-child(1) a {
+        margin-left: 0;
     }
 
 }
@@ -500,10 +507,10 @@
     }
 
     .team_icon a {
-        font-size: 12px;
-        width: 23px;
-        height: 23px;
-        line-height: 24px;
+        font-size: 13px;
+        width: 24px;
+        height: 24px;
+        line-height: 25px;
     }
 
     .team_text h4 {
@@ -683,4 +690,7 @@
         padding: 30px 0;
     }
 
+    .copyright_right ul li:nth-child(1) a {
+        margin-left: 0;
+    }
 }
